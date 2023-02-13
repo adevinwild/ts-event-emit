@@ -1,6 +1,6 @@
-import EventEmitter from "events";
+import { EventEmitter as NodeEventEmitter } from "events";
 
-class TypedEventEmitter<T extends string> extends EventEmitter {
+export class EventEmitter<T extends string> extends NodeEventEmitter {
   addListener(event: T, listener: (...args: any[]) => void): this {
     return super.addListener(event, listener);
   }
@@ -54,4 +54,4 @@ class TypedEventEmitter<T extends string> extends EventEmitter {
   }
 }
 
-export default TypedEventEmitter;
+export default EventEmitter;
