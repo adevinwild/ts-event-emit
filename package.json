@@ -1,19 +1,14 @@
 {
   "name": "typescript-event-emitter",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "A typed event emitter for Node.js",
   "main": "./dist/index.js",
-  "module": "./dist/index.modern.js",
-  "unpkg": "./dist/index.umd.js",
-  "repository": "https://github.com/adevinwild/ts-event-emitter",
+  "repository": "https://github.com/adevinwild/typescript-event-emitter",
   "author": "adevinwild",
   "license": "MIT",
   "source": "src/index.ts",
-  "exports": {
-    "require": "./dist/index.cjs",
-    "default": "./dist/index.modern.js"
-  },
   "devDependencies": {
+    "events": "^3.3.0",
     "microbundle": "^0.15.1",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
