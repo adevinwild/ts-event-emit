@@ -1,5 +1,5 @@
 {
-  "name": "typed-events",
+  "name": "ts-event-emitter",
   "version": "1.0.0",
   "description": "A typed event emitter for Node.js",
   "main": "./dist/index.cjs",
