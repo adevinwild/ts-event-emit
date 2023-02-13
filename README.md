@@ -1,14 +1,14 @@
 <p align="center" test>
-  <a href="https://www.npmjs.com/package/typed-events">
-    <img alt="typed-events" src="./.r/logo.png" width="192" />
+  <a href="https://www.npmjs.com/package/typescript-event-emitter">
+    <img alt="typescript-event-emitter" src="./.r/logo.png" width="192" />
   </a>
 </p>
 <h1 align="center">
-  typed-events
+  typescript-event-emitter
 </h1>
 <br />
 <p align="center" style="max-width:50%;margin:0 auto;">
-  <code>typed-events</code> A simple, lightweight, and type-safe event emitter for TypeScript.
+  <code>typescript-event-emitter</code> A simple, lightweight, and type-safe event emitter for TypeScript.
 </p>
 <br />
 
@@ -24,13 +24,13 @@
 Install the package using your favorite package manager:
 
 ```bash
-npm install typed-events
+npm install typescript-event-emitter
 ```
 
 or
 
 ```bash
-yarn add typed-events
+yarn add typescript-event-emitter
 ```
 
 ---
@@ -38,7 +38,7 @@ yarn add typed-events
 Then, import the `EventEmitter` class and use it to create an event emitter:
 
 ```ts
-import { EventEmitter } from "typed-events";
+import { EventEmitter } from "typescript-event-emitter";
 
 type Events = "foo" | "bar";
 
@@ -52,4 +52,4 @@ emitter.emit("bar"); // "foo"
 ```
 
 That's it!
-You can now use typed-events to easily add type-safe events and event listeners to your TypeScript projects.
+You can now use typescript-event-emitter to easily add type-safe events and event listeners to your TypeScript projects.
