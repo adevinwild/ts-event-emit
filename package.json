@@ -1,8 +1,8 @@
 {
   "name": "typescript-event-emitter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A typed event emitter for Node.js",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.js",
   "module": "./dist/index.modern.js",
   "unpkg": "./dist/index.umd.js",
   "repository": "https://github.com/adevinwild/ts-event-emitter",
