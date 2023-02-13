@@ -16,7 +16,7 @@
 
 - Strongly typed events and event listeners
 - Easy to use and understand API
-- Lightweight and fast
+- No dependencies
 - Works seamlessly with TypeScript
 
 ## Usage 📖
