@@ -1,6 +1,6 @@
 {
   "name": "ts-event-emit",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A typed event emitter for Node.js",
   "files": [
     "dist"
