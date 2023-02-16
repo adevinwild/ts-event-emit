@@ -15,7 +15,6 @@
 ## Features 🎉
 
 - Strongly typed events and event listeners
-- Easy to use and understand API
 - No dependencies
 - Works seamlessly with TypeScript
 
@@ -38,18 +37,20 @@ yarn add ts-event-emit
 Then, import the `EventEmitter` class and use it to create an event emitter:
 
 ```ts
-import { EventEmitter } from "ts-event-emit";
+import EventEmitter from "ts-event-emit";
 
-type Events = "foo" | "bar";
+type AllowedEvents = "foo" | "bar";
 
 const emitter = new EventEmitter<Events>();
 
 emitter.on("foo", () => {
-  console.log("foo");
+  console.log("bar");
 });
 
-emitter.emit("bar"); // "foo"
+emitter.emit("foo");
+
+// Output: "bar"
 ```
 
 That's it!
-You can now use ts-event-emit to easily add type-safe events and event listeners to your TypeScript projects.
+You can now use <kbd>ts-event-emit</kbd> to easily add type-safe events and event listeners to your TypeScript projects.
