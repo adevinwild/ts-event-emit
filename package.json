@@ -5,6 +5,13 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "event",
+    "emitter",
+    "node",
+    "typescript",
+    "typed"
+  ],
   "main": "./dist/index.js",
   "repository": "https://github.com/adevinwild/typescript-event-emitter",
   "author": "adevinwild",
